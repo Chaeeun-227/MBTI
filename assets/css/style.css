@@ -1,7 +1,12 @@
+@font-face { font-family: 'PFStardust'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff'); font-weight: normal; font-style: normal; }
+
 body{
     background: url('../images/background.png');
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: "PFStardust" , "sans serif font" ;
+
+    
 
 }
 
@@ -12,17 +17,18 @@ body{
 
 .question{
     display: none;
-    margin-top: 50px;
     background: rgba(255, 255, 255, 0.7);
     width: 1114px;
     height: 628px;
     border-radius: 50px;
     z-index: -4;
+    
 }
 h1{
     display: grid;
     align-items: center;
     text-align: center;
+    
 }
 .sub{
     display: none;
@@ -33,6 +39,28 @@ h1{
     margin: auto;
 }
 
+.box{
+    margin: auto;
+    background: rgba(255, 255, 255, 0.7);
+    width: 1114px;
+    height: 628px;
+    border-radius: 50px;
+    z-index: -15;
+    
+    
+}
+.box img{
+    width: 600px;
+    position: relative;
+    bottom: 5%;
+    
+    
+}
+
+.question img{
+    width: 700px;
+    margin: 60px auto;
+}
 
 .main{
     display: grid;
@@ -43,11 +71,12 @@ h1{
     align-items: center;
     text-align: center;
     z-index: -3;
+    
 }
 .result{
     display: none;
     position: fixed;
-    margin-top: 5%;
+    margin-top: 2.9%;
     background: rgba(255, 255, 255, 0.7);
     width: 1114px;
     height: 628px;
@@ -65,7 +94,7 @@ p{
     
 }
 
-img{
+.result img{
     position: absolute;
     top: 35%;
     right: 1%;
@@ -78,5 +107,33 @@ article{
 
 .btn{
     position: absolute;
-    top: 30%;
+    top: 70%;
+    background: #F48AA8;
+    border: none;
+}
+
+.btn:hover {
+  background-color: #fd5b89;
+}
+
+.btn:active {
+  background-color:#fd5b89; 
+}
+
+.btn:focus {
+  background-color: #fd5b89;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #fd5b89;
+    border-color: #fd5b89;
+}
+
+.mt-6{
+    margin-top: 56px;
+}
+
+.mb-6{
+    margin-bottom: 100px;
 }
