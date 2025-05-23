@@ -9,6 +9,23 @@ body{
     
 
 }
+h1{
+    color: #FB638E;
+    font-weight: 900;
+}
+
+#title{
+    color: #FF7BA0;
+    font-weight: 500;
+}
+#A,#B{
+    background: rgba(244, 138, 168, 0.4);
+    border: none;
+    width: 447px;
+    height: 44px;
+    margin: 0 auto;
+}
+
 
 .start{
     align-items: center;
